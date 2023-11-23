@@ -1,0 +1,14 @@
+
+.display-movies {
+    grid-column: 1 / -1;
+    grid-row: 2 / span 1;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 5rem;
+    gap: 2.5rem;
+}
+
