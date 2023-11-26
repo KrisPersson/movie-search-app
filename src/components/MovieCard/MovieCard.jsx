@@ -11,7 +11,7 @@ function truncate(str) {
 export default function MovieCard({movie}) {
 
     return (
-        <article className="movie-card">
+        <article role='movie-item' className="movie-card">
             <img src={movie.Poster} alt="No image" />
             <section>
                 <h3>{truncate(movie.Title)}</h3>
